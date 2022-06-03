@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import ListItem from "./components/ListItem";
-import { getBooks } from './components/BooksService';
+import ListItem from "./ListItem";
+import { getBooks } from './BooksService';
 import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
 
